@@ -21,7 +21,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVV-Il-zce">
                                 <rect key="frame" x="108" y="223" width="96" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.35686274509999999" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.36470588240000001" green="0.37254901959999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="kickButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchDown" id="cJd-oo-fTp"/>
                                 </connections>
