@@ -8,16 +8,20 @@
 
 import UIKit
 
-class BeatButton: UIButton {
+class RediboxButton: UIButton {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        
     }
+    
     override var isHighlighted: Bool {
         didSet {
-            backgroundColor = ReDIColors.blue
+            if isHighlighted {
+                alpha = 0.5
+            } else {
+                alpha = 1
+            }
         }
     }
 }
+
