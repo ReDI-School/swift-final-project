@@ -15,11 +15,29 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func kickButtonTapped(_ sender: UIButton) {
+        AudioPlayer.play(filename: "Kick SwaggedOut 7")
     }
-
-
+    @IBAction func kickButtonTappedTwo(_ sender: UIButton) {
+        AudioPlayer.play(filename: "SnareRim Stadium V13")
+    }
+    
+    @IBAction func hihatButtonTapped(_ sender: UIButton) {
+        AudioPlayer.play(filename: "HiHat Pedal Close_08")
+    }
+    
+    @IBAction func hihatButtonTappedTwo(_ sender: UIButton) {
+        AudioPlayer.play(filename: "HiHat_10_V26_1")
+    }
+    
+    @IBAction func snareButtonTapped(_ sender: UIButton) {
+        AudioPlayer.play(filename: "Snare Dragon 2 V3")
+    }
+    
+    @IBAction func snareButtonTappedTwo(_ sender: UIButton) {
+        AudioPlayer.play(filename: "SC Snare11")
+    }
+    
+    
 }
 

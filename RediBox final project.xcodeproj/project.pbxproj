@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2D7D0421B70BD100EC4527 /* Kick SwaggedOut 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7D0321B70BD100EC4527 /* Kick SwaggedOut 7.wav */; };
+		DE2D7D0821B83E5000EC4527 /* HiHat Pedal Close_08.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7D0721B83E5000EC4527 /* HiHat Pedal Close_08.wav */; };
+		DE2D7D0C21B848B900EC4527 /* Snare Dragon 2 V3.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7D0B21B848B900EC4527 /* Snare Dragon 2 V3.wav */; };
+		DE2D7D0E21B8493700EC4527 /* SC Snare11.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7D0D21B8493700EC4527 /* SC Snare11.wav */; };
+		DE2D7D1021B88DD400EC4527 /* SnareRim Stadium V13.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7D0F21B88DD400EC4527 /* SnareRim Stadium V13.wav */; };
+		DE2D7D1321B88F7700EC4527 /* HiHat_10_V26_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7D1121B88F7700EC4527 /* HiHat_10_V26_2.wav */; };
+		DE2D7D1421B88F7700EC4527 /* HiHat_10_V26_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7D1221B88F7700EC4527 /* HiHat_10_V26_1.wav */; };
 		DE8714BE21B7008E0083ED49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714BD21B7008E0083ED49 /* AppDelegate.swift */; };
 		DE8714C021B7008E0083ED49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714BF21B7008E0083ED49 /* ViewController.swift */; };
 		DE8714C321B7008E0083ED49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8714C121B7008E0083ED49 /* Main.storyboard */; };
 		DE8714C521B700920083ED49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8714C421B700920083ED49 /* Assets.xcassets */; };
 		DE8714C821B700920083ED49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8714C621B700920083ED49 /* LaunchScreen.storyboard */; };
+		DE8714D021B7027D0083ED49 /* AudioPlayer.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714CF21B7027C0083ED49 /* AudioPlayer.swift.swift */; };
+		DE8714D421B704AD0083ED49 /* ReDIColors-1.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714D321B704AD0083ED49 /* ReDIColors-1.swift.swift */; };
+		DEF939E721B9A39C0074F41F /* RediboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF939E621B9A39C0074F41F /* RediboxButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE2D7D0321B70BD100EC4527 /* Kick SwaggedOut 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kick SwaggedOut 7.wav"; sourceTree = "<group>"; };
+		DE2D7D0721B83E5000EC4527 /* HiHat Pedal Close_08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "HiHat Pedal Close_08.wav"; sourceTree = "<group>"; };
+		DE2D7D0B21B848B900EC4527 /* Snare Dragon 2 V3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Snare Dragon 2 V3.wav"; sourceTree = "<group>"; };
+		DE2D7D0D21B8493700EC4527 /* SC Snare11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "SC Snare11.wav"; sourceTree = "<group>"; };
+		DE2D7D0F21B88DD400EC4527 /* SnareRim Stadium V13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "SnareRim Stadium V13.wav"; sourceTree = "<group>"; };
+		DE2D7D1121B88F7700EC4527 /* HiHat_10_V26_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HiHat_10_V26_2.wav; sourceTree = "<group>"; };
+		DE2D7D1221B88F7700EC4527 /* HiHat_10_V26_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HiHat_10_V26_1.wav; sourceTree = "<group>"; };
 		DE8714BA21B7008E0083ED49 /* RediBox final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RediBox final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8714BD21B7008E0083ED49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE8714BF21B7008E0083ED49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,9 @@
 		DE8714C421B700920083ED49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE8714C721B700920083ED49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE8714C921B700920083ED49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8714CF21B7027C0083ED49 /* AudioPlayer.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift.swift; sourceTree = "<group>"; };
+		DE8714D321B704AD0083ED49 /* ReDIColors-1.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReDIColors-1.swift.swift"; sourceTree = "<group>"; };
+		DEF939E621B9A39C0074F41F /* RediboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RediboxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,7 @@
 		DE8714B121B7008E0083ED49 = {
 			isa = PBXGroup;
 			children = (
+				DEF939E621B9A39C0074F41F /* RediboxButton.swift */,
 				DE8714BC21B7008E0083ED49 /* RediBox final project */,
 				DE8714BB21B7008E0083ED49 /* Products */,
 			);
@@ -56,8 +77,17 @@
 			children = (
 				DE8714BD21B7008E0083ED49 /* AppDelegate.swift */,
 				DE8714BF21B7008E0083ED49 /* ViewController.swift */,
+				DE8714CF21B7027C0083ED49 /* AudioPlayer.swift.swift */,
+				DE8714D321B704AD0083ED49 /* ReDIColors-1.swift.swift */,
 				DE8714C121B7008E0083ED49 /* Main.storyboard */,
 				DE8714C421B700920083ED49 /* Assets.xcassets */,
+				DE2D7D0321B70BD100EC4527 /* Kick SwaggedOut 7.wav */,
+				DE2D7D0F21B88DD400EC4527 /* SnareRim Stadium V13.wav */,
+				DE2D7D0721B83E5000EC4527 /* HiHat Pedal Close_08.wav */,
+				DE2D7D1221B88F7700EC4527 /* HiHat_10_V26_1.wav */,
+				DE2D7D1121B88F7700EC4527 /* HiHat_10_V26_2.wav */,
+				DE2D7D0B21B848B900EC4527 /* Snare Dragon 2 V3.wav */,
+				DE2D7D0D21B8493700EC4527 /* SC Snare11.wav */,
 				DE8714C621B700920083ED49 /* LaunchScreen.storyboard */,
 				DE8714C921B700920083ED49 /* Info.plist */,
 			);
@@ -122,8 +152,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2D7D0C21B848B900EC4527 /* Snare Dragon 2 V3.wav in Resources */,
+				DE2D7D0421B70BD100EC4527 /* Kick SwaggedOut 7.wav in Resources */,
+				DE2D7D0E21B8493700EC4527 /* SC Snare11.wav in Resources */,
+				DE2D7D1021B88DD400EC4527 /* SnareRim Stadium V13.wav in Resources */,
 				DE8714C821B700920083ED49 /* LaunchScreen.storyboard in Resources */,
+				DE2D7D0821B83E5000EC4527 /* HiHat Pedal Close_08.wav in Resources */,
 				DE8714C521B700920083ED49 /* Assets.xcassets in Resources */,
+				DE2D7D1421B88F7700EC4527 /* HiHat_10_V26_1.wav in Resources */,
+				DE2D7D1321B88F7700EC4527 /* HiHat_10_V26_2.wav in Resources */,
 				DE8714C321B7008E0083ED49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE8714C021B7008E0083ED49 /* ViewController.swift in Sources */,
+				DE8714D421B704AD0083ED49 /* ReDIColors-1.swift.swift in Sources */,
 				DE8714BE21B7008E0083ED49 /* AppDelegate.swift in Sources */,
+				DEF939E721B9A39C0074F41F /* RediboxButton.swift in Sources */,
+				DE8714D021B7027D0083ED49 /* AudioPlayer.swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +321,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZKX53UCD4;
 				INFOPLIST_FILE = "RediBox final project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +340,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VZKX53UCD4;
 				INFOPLIST_FILE = "RediBox final project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
