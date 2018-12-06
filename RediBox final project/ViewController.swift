@@ -37,7 +37,13 @@ class ViewController: UIViewController {
     @IBAction func snareButtonTappedTwo(_ sender: UIButton) {
         AudioPlayer.play(filename: "SC Snare11")
     }
+    @IBAction func loopButtonTapped(_ sender: UIButton) {
+//        AudioPlayer.play(filename:"Loop 01")
+    }
     
+    @IBAction func loopButtonTappedTwo(_ sender: UIButton) {
+//        AudioPlayer.play(filename:"Loop 02")
+    }
     
 }
 
