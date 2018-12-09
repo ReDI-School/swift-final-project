@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="landscape">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,98 +15,123 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RediBox_final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVV-Il-zce" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="108" y="223" width="96" height="98"/>
+                                <rect key="frame" x="108" y="467" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.35686274509999999" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="kickButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchDown" id="cJd-oo-fTp"/>
+                                    <action selector="kickButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gCu-1f-G3U"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCz-4o-5KY" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="112" width="96" height="96"/>
+                                <rect key="frame" x="2" y="361" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.35686274509999999" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <connections>
-                                    <action selector="hihatButtonTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="elh-HV-zvk"/>
+                                    <action selector="hihatButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wWP-20-YUV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bS0-pH-4Ah" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="223" width="96" height="97"/>
+                                <rect key="frame" x="2" y="467" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.35686274509999999" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="hihatButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchDown" id="C3t-5e-t7e"/>
+                                    <action selector="kickButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sS6-Ug-xVQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDa-GO-9dX" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="108" y="0.0" width="96" height="96"/>
+                                <rect key="frame" x="108" y="361" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.35686274509999999" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="snareButtonTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="Zdm-SC-nyP"/>
+                                    <action selector="snareButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTE-x7-M3V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygZ-5n-w4x" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="108" y="112" width="96" height="96"/>
+                                <rect key="frame" x="215" y="467" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.35686274509999999" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="snareButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchDown" id="zqJ-NE-Nds"/>
+                                    <action selector="hihatButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tje-KK-9N3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzo-cv-y4v" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="96" height="96"/>
+                                <rect key="frame" x="215" y="361" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.35686274509803922" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <connections>
-                                    <action selector="kickButtonTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="vJ0-uH-2zA"/>
+                                    <action selector="snareButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N4b-Xh-ftL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-d5-kOO" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
+                                <rect key="frame" x="108" y="253" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.35294117650000001" green="0.67843137249999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="atmoButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchDown" id="XhO-g2-osR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3L-Af-rzg" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
+                                <rect key="frame" x="215" y="253" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.35294117650000001" green="0.67843137249999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="atmoButtonTappedThree:" destination="BYZ-38-t0r" eventType="touchDown" id="5mD-2Y-vtQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXW-Ac-uS5" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
+                                <rect key="frame" x="108" y="145" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63529411759999999" green="0.70588235290000001" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="loopButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7fP-Lf-lcP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4Z-fc-vSs" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="215" y="0.0" width="112" height="96"/>
+                                <rect key="frame" x="2" y="253" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3529411764705882" green="0.67843137254901964" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-d5-kOO" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="215" y="111" width="112" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.35294117650000001" green="0.67843137249999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3L-Af-rzg" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="215" y="222" width="112" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.35294117650000001" green="0.67843137249999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXW-Ac-uS5" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="338" y="0.0" width="104" height="153"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36470588240000001" green="0.37254901959999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="loopButtonTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="Ayc-yT-HnZ"/>
+                                    <action selector="atmoButtonTapped:" destination="BYZ-38-t0r" eventType="touchDown" id="ARX-av-aNh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diM-Q7-0nW" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
-                                <rect key="frame" x="338" y="168" width="104" height="153"/>
+                                <rect key="frame" x="2" y="145" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36470588240000001" green="0.37254901959999998" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.63529411764705879" green="0.70588235294117641" blue="0.68627450980392157" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="loopButtonTappedTwo:" destination="BYZ-38-t0r" eventType="touchDown" id="bc5-nF-aHM"/>
+                                    <action selector="loopButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GQV-MU-VvY"/>
                                 </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="HfM-YI-Hrr">
+                                <rect key="frame" x="14" y="65" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="fNG-Iw-NJQ"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUw-5A-gC8" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
+                                <rect key="frame" x="215" y="145" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63529411759999999" green="0.70588235290000001" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.19215686274509802" green="0.26666666666666666" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="sliderVolume" destination="HfM-YI-Hrr" id="cBB-tP-xa1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-41.197183098591552" y="155.625"/>
+            <point key="canvasLocation" x="-41.25" y="155.28169014084509"/>
         </scene>
     </scenes>
 </document>

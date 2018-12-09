@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var sliderVolume: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -37,6 +39,18 @@ class ViewController: UIViewController {
     @IBAction func snareButtonTappedTwo(_ sender: UIButton) {
         AudioPlayer.play(filename: "SC Snare11")
     }
+    
+    @IBAction func atmoButtonTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func atmoButtonTappedTwo(_ sender: UIButton) {
+    }
+    
+    @IBAction func atmoButtonTappedThree(_ sender: UIButton) {
+    }
+    
+    
+    
     @IBAction func loopButtonTapped(_ sender: UIButton) {
 //        AudioPlayer.play(filename:"Loop 01")
     }
@@ -44,6 +58,10 @@ class ViewController: UIViewController {
     @IBAction func loopButtonTappedTwo(_ sender: UIButton) {
 //        AudioPlayer.play(filename:"Loop 02")
     }
+    
+    @IBAction func sliderVolumeValueChanged(_ sender: Any) {
+    }
+    
     
 }
 
