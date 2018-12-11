@@ -10,11 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var sliderVolume: UISlider!
+    @IBOutlet weak var backgroundColorView: UIView!
+    
+    @IBOutlet weak var rediImageView: UIImageView!
+    @IBOutlet weak var backgroundColorSLider: UISlider!
+    
+    var buttons:[UIButton] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        for subview in view.subviews {
+            if let button = subview as? UIButton {
+                buttons.append(button)
+            }
+        }
+        
     }
 
     @IBAction func kickButtonTapped(_ sender: UIButton) {
@@ -59,7 +71,13 @@ class ViewController: UIViewController {
 //        AudioPlayer.play(filename:"Loop 02")
     }
     
-    @IBAction func sliderVolumeValueChanged(_ sender: Any) {
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
+        let sliderValue = CGFloat(sender.value)
+        backgroundColorView.backgroundColor = #colorLiteral(red: 0.1921568627, green: 0.2666666667, blue: 0.4, alpha: 1).withAlphaComponent(sliderValue)
+        rediImageView.alpha = 1 - sliderValue
+        for button in buttons {
+            button.alpha = sliderValue
+        }
     }
     
     
