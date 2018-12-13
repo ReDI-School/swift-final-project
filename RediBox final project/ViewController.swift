@@ -51,14 +51,13 @@ class ViewController: UIViewController {
     @IBAction func snareButtonTappedTwo(_ sender: UIButton) {
         AudioPlayer.play(filename: "SC Snare11")
     }
-    
-    @IBAction func atmoButtonTapped(_ sender: UIButton) {
+    @IBAction func bassButtonTapped(_ sender: UIButton) {
+        AudioPlayer.play(filename: "FW_808_One_Shot_Dirty_Sub_C")
     }
-    
-    @IBAction func atmoButtonTappedTwo(_ sender: UIButton) {
+    @IBAction func sfxButtonTapped(_ sender: UIButton)  { AudioPlayer.play(filename: "FW_Fx_One_Shot_Ghostly_01")
     }
-    
-    @IBAction func atmoButtonTappedThree(_ sender: UIButton) {
+    @IBAction func weAreRediButtonTapped(_ sender: UIButton) {
+        AudioPlayer.play(filename: "We_Are_Redi")
     }
     
     
