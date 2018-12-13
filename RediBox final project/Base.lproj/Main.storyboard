@@ -185,6 +185,7 @@
                         <outlet property="backgroundColorSLider" destination="HfM-YI-Hrr" id="DuV-gH-kDp"/>
                         <outlet property="backgroundColorView" destination="JZK-Fr-oVL" id="4Ud-mm-wmv"/>
                         <outlet property="rediImageView" destination="YjP-cJ-GcZ" id="Qe2-Zv-UU9"/>
+                        <outlet property="stackView" destination="6Af-Jh-I3b" id="wmk-3z-RJM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

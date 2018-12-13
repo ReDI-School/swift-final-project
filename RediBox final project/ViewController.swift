@@ -15,19 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var rediImageView: UIImageView!
     @IBOutlet weak var backgroundColorSLider: UISlider!
     
-    var buttons:[UIButton] = []
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        for subview in view.subviews {
-            if let button = subview as? UIButton {
-                buttons.append(button)
-            }
-        }
-        
-    }
+    @IBOutlet weak var stackView: UIStackView!
 
     @IBAction func kickButtonTapped(_ sender: UIButton) {
         AudioPlayer.play(filename: "Kick SwaggedOut 7")
@@ -74,9 +62,7 @@ class ViewController: UIViewController {
         let sliderValue = CGFloat(sender.value)
         backgroundColorView.backgroundColor = #colorLiteral(red: 0.1921568627, green: 0.2666666667, blue: 0.4, alpha: 1).withAlphaComponent(sliderValue)
         rediImageView.alpha = 1 - sliderValue
-        for button in buttons {
-            button.alpha = sliderValue
-        }
+        stackView.alpha = sliderValue
     }
     
     
