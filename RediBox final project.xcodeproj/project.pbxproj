@@ -21,6 +21,8 @@
 		DE8714C821B700920083ED49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8714C621B700920083ED49 /* LaunchScreen.storyboard */; };
 		DE8714D021B7027D0083ED49 /* AudioPlayer.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714CF21B7027C0083ED49 /* AudioPlayer.swift.swift */; };
 		DE8714D421B704AD0083ED49 /* ReDIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714D321B704AD0083ED49 /* ReDIColors.swift */; };
+		DEA1A89621C2E02600CA1445 /* RC noise loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = DEA1A89521C2E02500CA1445 /* RC noise loop.wav */; };
+		DEA1A89821C2E0A700CA1445 /* RC bellystan loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = DEA1A89721C2E0A700CA1445 /* RC bellystan loop.wav */; };
 		DEF939E721B9A39C0074F41F /* RediboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF939E621B9A39C0074F41F /* RediboxButton.swift */; };
 		FD2E33F321C2D78B00E67D7A /* FW_808_One_Shot_Dirty_Sub_C.wav in Resources */ = {isa = PBXBuildFile; fileRef = FD2E33F221C2D78B00E67D7A /* FW_808_One_Shot_Dirty_Sub_C.wav */; };
 		FD2E33F521C2D7B700E67D7A /* FW_Fx_One_Shot_Ghostly_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = FD2E33F421C2D7B700E67D7A /* FW_Fx_One_Shot_Ghostly_01.wav */; };
@@ -44,6 +46,8 @@
 		DE8714C921B700920083ED49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE8714CF21B7027C0083ED49 /* AudioPlayer.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift.swift; sourceTree = "<group>"; };
 		DE8714D321B704AD0083ED49 /* ReDIColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReDIColors.swift; sourceTree = "<group>"; };
+		DEA1A89521C2E02500CA1445 /* RC noise loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "RC noise loop.wav"; sourceTree = "<group>"; };
+		DEA1A89721C2E0A700CA1445 /* RC bellystan loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "RC bellystan loop.wav"; sourceTree = "<group>"; };
 		DEF939E621B9A39C0074F41F /* RediboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RediboxButton.swift; sourceTree = "<group>"; };
 		FD2E33F221C2D78B00E67D7A /* FW_808_One_Shot_Dirty_Sub_C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FW_808_One_Shot_Dirty_Sub_C.wav; sourceTree = "<group>"; };
 		FD2E33F421C2D7B700E67D7A /* FW_Fx_One_Shot_Ghostly_01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FW_Fx_One_Shot_Ghostly_01.wav; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				FD2E33F221C2D78B00E67D7A /* FW_808_One_Shot_Dirty_Sub_C.wav */,
 				FD2E33F421C2D7B700E67D7A /* FW_Fx_One_Shot_Ghostly_01.wav */,
 				FD2E33F621C2DAE400E67D7A /* We_Are_Redi.wav */,
+				DEA1A89521C2E02500CA1445 /* RC noise loop.wav */,
+				DEA1A89721C2E0A700CA1445 /* RC bellystan loop.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -173,7 +179,9 @@
 				DE2D7D0421B70BD100EC4527 /* Kick SwaggedOut 7.wav in Resources */,
 				DE2D7D0E21B8493700EC4527 /* SC Snare11.wav in Resources */,
 				FD2E33F521C2D7B700E67D7A /* FW_Fx_One_Shot_Ghostly_01.wav in Resources */,
+				DEA1A89621C2E02600CA1445 /* RC noise loop.wav in Resources */,
 				DE2D7D1021B88DD400EC4527 /* SnareRim Stadium V13.wav in Resources */,
+				DEA1A89821C2E0A700CA1445 /* RC bellystan loop.wav in Resources */,
 				DE8714C821B700920083ED49 /* LaunchScreen.storyboard in Resources */,
 				DE2D7D0821B83E5000EC4527 /* HiHat Pedal Close_08.wav in Resources */,
 				DE8714C521B700920083ED49 /* Assets.xcassets in Resources */,

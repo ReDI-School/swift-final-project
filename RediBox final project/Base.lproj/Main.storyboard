@@ -59,6 +59,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUw-5A-gC8" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
                                                 <rect key="frame" x="210.5" y="0.0" width="101.5" height="101"/>
                                                 <color key="backgroundColor" red="0.63529411759999999" green="0.70588235290000001" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="loopButtonTappedThree:" destination="BYZ-38-t0r" eventType="touchDown" id="trD-si-RjM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

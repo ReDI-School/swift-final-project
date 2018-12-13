@@ -51,11 +51,14 @@ class ViewController: UIViewController {
     
     
     @IBAction func loopButtonTapped(_ sender: UIButton) {
-//        AudioPlayer.play(filename:"Loop 01")
+        AudioPlayer.play(filename:"RC noise loop")
     }
     
     @IBAction func loopButtonTappedTwo(_ sender: UIButton) {
-//        AudioPlayer.play(filename:"Loop 02")
+        AudioPlayer.play(filename:"RC bellystan loop")
+    }
+    @IBAction func loopButtonTappedThree(_ sender: RediboxButton) {
+   //     AudioPlayer.play(filename:"___")
     }
     
     @IBAction func sliderValueChanged(_ sender: UISlider) {
