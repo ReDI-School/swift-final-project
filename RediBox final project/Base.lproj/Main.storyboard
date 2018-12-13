@@ -69,21 +69,21 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="101.5" height="101"/>
                                                 <color key="backgroundColor" red="0.3529411764705882" green="0.67843137254901964" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="bassButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ty1-21-5ac"/>
+                                                    <action selector="bassButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jW9-Jr-z1k"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-d5-kOO" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
                                                 <rect key="frame" x="105.5" y="0.0" width="101" height="101"/>
                                                 <color key="backgroundColor" red="0.35294117650000001" green="0.67843137249999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="sfxButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nYv-cU-c5C"/>
+                                                    <action selector="sfxButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5fd-cg-mU6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3L-Af-rzg" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
                                                 <rect key="frame" x="210.5" y="0.0" width="101.5" height="101"/>
                                                 <color key="backgroundColor" red="0.35294117650000001" green="0.67843137249999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="weAreRediButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hzA-Vv-OpD"/>
+                                                    <action selector="weAreRediButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AMj-MG-qu7"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -189,8 +189,6 @@
                     <connections>
                         <outlet property="backgroundColorSLider" destination="HfM-YI-Hrr" id="DuV-gH-kDp"/>
                         <outlet property="backgroundColorView" destination="JZK-Fr-oVL" id="4Ud-mm-wmv"/>
-                        <outlet property="firstBottomStackView" destination="Ft6-lH-1WC" id="TwQ-lZ-6y3"/>
-                        <outlet property="middleStackView" destination="seX-u0-Rsb" id="05M-y7-Z9E"/>
                         <outlet property="rediImageView" destination="YjP-cJ-GcZ" id="Qe2-Zv-UU9"/>
                         <outlet property="stackView" destination="6Af-Jh-I3b" id="wmk-3z-RJM"/>
                     </connections>
