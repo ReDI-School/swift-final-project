@@ -20,7 +20,7 @@
 		DE8714C521B700920083ED49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8714C421B700920083ED49 /* Assets.xcassets */; };
 		DE8714C821B700920083ED49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8714C621B700920083ED49 /* LaunchScreen.storyboard */; };
 		DE8714D021B7027D0083ED49 /* AudioPlayer.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714CF21B7027C0083ED49 /* AudioPlayer.swift.swift */; };
-		DE8714D421B704AD0083ED49 /* ReDIColors-1.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714D321B704AD0083ED49 /* ReDIColors-1.swift.swift */; };
+		DE8714D421B704AD0083ED49 /* ReDIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8714D321B704AD0083ED49 /* ReDIColors.swift */; };
 		DEF939E721B9A39C0074F41F /* RediboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF939E621B9A39C0074F41F /* RediboxButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		DE8714C721B700920083ED49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE8714C921B700920083ED49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE8714CF21B7027C0083ED49 /* AudioPlayer.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift.swift; sourceTree = "<group>"; };
-		DE8714D321B704AD0083ED49 /* ReDIColors-1.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReDIColors-1.swift.swift"; sourceTree = "<group>"; };
+		DE8714D321B704AD0083ED49 /* ReDIColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReDIColors.swift; sourceTree = "<group>"; };
 		DEF939E621B9A39C0074F41F /* RediboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RediboxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,10 +55,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D35C9C5721C1E41D00527F16 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DE2D7D0321B70BD100EC4527 /* Kick SwaggedOut 7.wav */,
+				DE2D7D0F21B88DD400EC4527 /* SnareRim Stadium V13.wav */,
+				DE2D7D0721B83E5000EC4527 /* HiHat Pedal Close_08.wav */,
+				DE2D7D1221B88F7700EC4527 /* HiHat_10_V26_1.wav */,
+				DE2D7D1121B88F7700EC4527 /* HiHat_10_V26_2.wav */,
+				DE2D7D0B21B848B900EC4527 /* Snare Dragon 2 V3.wav */,
+				DE2D7D0D21B8493700EC4527 /* SC Snare11.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		DE8714B121B7008E0083ED49 = {
 			isa = PBXGroup;
 			children = (
-				DEF939E621B9A39C0074F41F /* RediboxButton.swift */,
 				DE8714BC21B7008E0083ED49 /* RediBox final project */,
 				DE8714BB21B7008E0083ED49 /* Products */,
 			);
@@ -77,17 +90,12 @@
 			children = (
 				DE8714BD21B7008E0083ED49 /* AppDelegate.swift */,
 				DE8714BF21B7008E0083ED49 /* ViewController.swift */,
+				DEF939E621B9A39C0074F41F /* RediboxButton.swift */,
 				DE8714CF21B7027C0083ED49 /* AudioPlayer.swift.swift */,
-				DE8714D321B704AD0083ED49 /* ReDIColors-1.swift.swift */,
+				DE8714D321B704AD0083ED49 /* ReDIColors.swift */,
 				DE8714C121B7008E0083ED49 /* Main.storyboard */,
 				DE8714C421B700920083ED49 /* Assets.xcassets */,
-				DE2D7D0321B70BD100EC4527 /* Kick SwaggedOut 7.wav */,
-				DE2D7D0F21B88DD400EC4527 /* SnareRim Stadium V13.wav */,
-				DE2D7D0721B83E5000EC4527 /* HiHat Pedal Close_08.wav */,
-				DE2D7D1221B88F7700EC4527 /* HiHat_10_V26_1.wav */,
-				DE2D7D1121B88F7700EC4527 /* HiHat_10_V26_2.wav */,
-				DE2D7D0B21B848B900EC4527 /* Snare Dragon 2 V3.wav */,
-				DE2D7D0D21B8493700EC4527 /* SC Snare11.wav */,
+				D35C9C5721C1E41D00527F16 /* Sounds */,
 				DE8714C621B700920083ED49 /* LaunchScreen.storyboard */,
 				DE8714C921B700920083ED49 /* Info.plist */,
 			);
@@ -173,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE8714C021B7008E0083ED49 /* ViewController.swift in Sources */,
-				DE8714D421B704AD0083ED49 /* ReDIColors-1.swift.swift in Sources */,
+				DE8714D421B704AD0083ED49 /* ReDIColors.swift in Sources */,
 				DE8714BE21B7008E0083ED49 /* AppDelegate.swift in Sources */,
 				DEF939E721B9A39C0074F41F /* RediboxButton.swift in Sources */,
 				DE8714D021B7027D0083ED49 /* AudioPlayer.swift.swift in Sources */,
