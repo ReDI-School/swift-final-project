@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         AudioPlayer.play(filename: "SC Snare11")
     }
     @IBAction func bassButtonTapped(_ sender: UIButton) {
-        AudioPlayer.play(filename: "FW_808_One_Shot_Dirty_Sub_C")
+        AudioPlayer.play(filename: "NewBass")
     }
     @IBAction func sfxButtonTapped(_ sender: UIButton)  { AudioPlayer.play(filename: "FW_Fx_One_Shot_Ghostly_01")
     }

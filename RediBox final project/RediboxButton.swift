@@ -19,7 +19,9 @@ class RediboxButton: UIButton {
             if isHighlighted {
                 alpha = 0.5
             } else {
-                alpha = 1
+                UIView.animate(withDuration: 0.15) {
+                    self.alpha = 1
+                }
             }
         }
     }
