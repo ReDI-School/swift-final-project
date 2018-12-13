@@ -65,28 +65,28 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="seX-u0-Rsb" userLabel="Middle Stack View">
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="seX-u0-Rsb" userLabel="Middle Stack View">
                                         <rect key="frame" x="0.0" y="105" width="312" height="101"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4Z-fc-vSs" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="101.5" height="101"/>
                                                 <color key="backgroundColor" red="0.3529411764705882" green="0.67843137254901964" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="bassButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ty1-21-5ac"/>
+                                                    <action selector="bassButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jW9-Jr-z1k"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-d5-kOO" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
                                                 <rect key="frame" x="105.5" y="0.0" width="101" height="101"/>
                                                 <color key="backgroundColor" red="0.35294117650000001" green="0.67843137249999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="sfxButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nYv-cU-c5C"/>
+                                                    <action selector="sfxButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5fd-cg-mU6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3L-Af-rzg" customClass="RediboxButton" customModule="RediBox_final_project" customModuleProvider="target">
                                                 <rect key="frame" x="210.5" y="0.0" width="101.5" height="101"/>
                                                 <color key="backgroundColor" red="0.35294117650000001" green="0.67843137249999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
-                                                    <action selector="weAreRediButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hzA-Vv-OpD"/>
+                                                    <action selector="weAreRediButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AMj-MG-qu7"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -147,8 +147,13 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="6Af-Jh-I3b" secondAttribute="height" multiplier="3:4" id="Pac-0S-Yec"/>
+                                    <constraint firstAttribute="height" secondItem="6Af-Jh-I3b" secondAttribute="width" multiplier="4:3" id="Pac-0S-Yec"/>
                                 </constraints>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="Pac-0S-Yec"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -156,13 +161,15 @@
                         <constraints>
                             <constraint firstItem="HfM-YI-Hrr" firstAttribute="centerX" secondItem="JZK-Fr-oVL" secondAttribute="centerX" id="8OU-KK-ktV"/>
                             <constraint firstItem="JZK-Fr-oVL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FmI-4b-KCP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="6Af-Jh-I3b" secondAttribute="bottom" constant="-316" id="JgV-84-p3K"/>
                             <constraint firstItem="JZK-Fr-oVL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="MCF-Bh-F4w"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Af-Jh-I3b" secondAttribute="bottom" constant="4" id="P8t-Dc-SgZ"/>
-                            <constraint firstItem="6Af-Jh-I3b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="U01-hc-fqO"/>
+                            <constraint firstItem="6Af-Jh-I3b" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.8" id="TaM-n2-JwS"/>
                             <constraint firstItem="YjP-cJ-GcZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="U2i-Bd-rlt"/>
                             <constraint firstItem="HfM-YI-Hrr" firstAttribute="width" secondItem="JZK-Fr-oVL" secondAttribute="width" multiplier="0.7" id="UVM-Ux-ULf"/>
-                            <constraint firstItem="HfM-YI-Hrr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="XOR-oR-iG6"/>
+                            <constraint firstItem="6Af-Jh-I3b" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XGb-R5-2J1"/>
+                            <constraint firstItem="HfM-YI-Hrr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="XOR-oR-iG6">
+                                <variation key="heightClass=regular-widthClass=regular" constant="70"/>
+                            </constraint>
                             <constraint firstItem="6Af-Jh-I3b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="4" id="bMm-9p-lyo"/>
                             <constraint firstItem="YjP-cJ-GcZ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.06" id="bnn-uu-0wA"/>
                             <constraint firstItem="JZK-Fr-oVL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fNh-e5-8yb"/>
@@ -173,14 +180,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="JgV-84-p3K"/>
-                                <exclude reference="U01-hc-fqO"/>
+                                <exclude reference="TaM-n2-JwS"/>
                             </mask>
                         </variation>
-                        <variation key="heightClass=compact-widthClass=compact">
+                        <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
-                                <exclude reference="JgV-84-p3K"/>
-                                <exclude reference="U01-hc-fqO"/>
+                                <include reference="TaM-n2-JwS"/>
                             </mask>
                         </variation>
                     </view>
